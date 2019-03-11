@@ -16,6 +16,7 @@
             <h1>Email</h1>
             <input>
         </div>
+        <button>button</button>
     </div>
 
 </body>

@@ -21,3 +21,12 @@ input{
     position: relative;
     bottom: 10px;
 }
+button{
+    margin: 10px;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+    background-color: #813772;
+}
