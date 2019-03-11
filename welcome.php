@@ -9,15 +9,22 @@
     <div id="maindiv">
         <div id="namediv">
             <h1>Name</h1>
-            <input>
+            <input type="text" name="name" />
         </div>
 
         <div id="maildiv">
             <h1>Email</h1>
             <input>
         </div>
-        <button>button</button>
+        <button onclick="function go()">button</button>
     </div>
 
+    <?php
+    $firstname = $_GET['name'];
+
+    function go(){
+        echo '<h1>i did it!</h1>';
+    }
+    ?>
+
 </body>
-</html>
