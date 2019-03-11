@@ -1,0 +1,23 @@
+#maindiv{
+    width: 1000px;
+    margin: 0px;
+    align-content: center;
+    margin: 0 auto;
+    color: rgba(255,255,255,1);
+}
+#namediv{
+    background-color: #062f4f;
+}
+#maildiv{
+    background-color: #b82601;
+    margin-left: -10px;
+}
+#namediv,#maildiv{
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+}
+input{
+    position: relative;
+    bottom: 10px;
+}
