@@ -16,11 +16,11 @@
             <h1>Email</h1>
             <input>
         </div>
-        <button onclick="function go()">button</button>
+        <button type='button' onclick="function go()" >click me</button>
     </div>
 
     <?php
-    $firstname = $_GET['name'];
+    //$firstname = $_GET['name'];
 
     function go(){
         echo '<h1>i did it!</h1>';
