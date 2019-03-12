@@ -7,24 +7,26 @@
 </head>
 <body>
     <div id="maindiv">
+
+        <form action="welcome.php" method="post">
+
         <div id="namediv">
-            <h1>Name</h1>
-            <input type="text" name="name" />
+            <h1>Name: </h1><input type="text" name="name"><br>
         </div>
 
         <div id="maildiv">
-            <h1>Email</h1>
-            <input>
+            <h1>E-mail: </h1><input type="text" name="email"><br>
         </div>
-        <button type='button' onclick="function go()" >click me</button>
+
+        <input id='btn' type="submit">
     </div>
 
-    <?php
-    //$firstname = $_GET['name'];
+    <?
 
-    function go(){
-        echo '<h1>i did it!</h1>';
-    }
     ?>
+
+
+    Welcome <? echo $_POST["name"]; ?><br>
+    Your email address is: <? echo $_POST["email"]; ?>
 
 </body>

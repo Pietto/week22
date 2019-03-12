@@ -19,9 +19,9 @@
 }
 input{
     position: relative;
-    bottom: 10px;
+bottom: 10px;
 }
-button{
+#btn{
     margin: 10px;
     width: 150px;
     height: 60px;
@@ -30,4 +30,7 @@ button{
     margin-left: -75px;
     background-color: #F38251;
     border: 1px solid black;
+}
+body{
+    background-color: yellow;
 }
