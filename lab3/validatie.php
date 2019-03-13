@@ -2,8 +2,8 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>lab 2 - Welcome</title>
-    <link rel="stylesheet" type="text/css" href="welcome.css">
+    <title>lab 3 - validation</title>
+    <link rel="stylesheet" type="text/css" href="validatie.css">
 </head>
 <body>
 <div id="maindiv">
@@ -14,11 +14,11 @@
             <h1>Name: </h1><input type="text" name="name"><br>
         </div>
 
-        <div id="maildiv">
-            <h1>E-mail: </h1><input type="text" name="email"><br>
-        </div>
+<div id="maildiv">
+    <h1>E-mail: </h1><input type="text" name="email"><br>
+</div>
 
-        <input id='btn' type="submit">
+<input id='btn' type="submit">
 </div>
 
 <?
